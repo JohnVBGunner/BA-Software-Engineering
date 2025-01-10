@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Details Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Enter Your Flight Details</h1>
+    <form id="flight-form">
+      <div class="form-group">
+        <label for="flight-number">Flight Number:</label>
+        <input type="text" id="flight-number" name="flight-number" required>
+      </div>
+      <div class="form-group">
+        <label for="departure-airport">Departure Airport:</label>
+        <input type="text" id="departure-airport" name="departure-airport" required>
+      </div>
+      <div class="form-group">
+        <label for="arrival-airport">Arrival Airport:</label>
+        <input type="text" id="arrival-airport" name="arrival-airport" required>
+      </div>
+      <div class="form-group">
+        <label for="flight-date">Flight Date:</label>
+        <input type="date" id="flight-date" name="flight-date" required>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
