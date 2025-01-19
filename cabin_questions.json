@@ -1,0 +1,32 @@
+{
+    "questions": [
+      {
+        "question": "What is the standard procedure for handling passenger complaints?",
+        "options": [
+          "Listen and empathize",
+          "Direct them to the captain",
+          "Ignore and move on"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "How often should cabin inspections be conducted?",
+        "options": [
+          "Once per flight",
+          "Before and after every service",
+          "Every hour"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the protocol for turbulence announcements?",
+        "options": [
+          "Announce immediately after takeoff",
+          "Announce only in extreme turbulence",
+          "Announce as soon as turbulence is detected"
+        ],
+        "correctOption": 2
+      }
+    ]
+  }
+  
