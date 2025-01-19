@@ -1,0 +1,32 @@
+{
+    "questions": [
+      {
+        "question": "What is the primary responsibility during a bird strike?",
+        "options": [
+          "Continue the flight",
+          "Report to ATC and prepare for emergency landing",
+          "Ignore it unless damage is visible"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What checklist should be followed for an engine failure?",
+        "options": [
+          "Engine Shutdown Procedure",
+          "Fuel Management Checklist",
+          "Cabin Crew Safety List"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What is the standard communication phraseology during emergencies?",
+        "options": [
+          "Use plain language",
+          "Follow ICAO Standard Phraseology",
+          "Communicate only with co-pilot"
+        ],
+        "correctOption": 1
+      }
+    ]
+  }
+  
