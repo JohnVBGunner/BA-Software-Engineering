@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compliance Questionnaire</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Start Screen -->
+    <div id="start-screen">
+      <h1>Welcome to the Compliance Questionnaire</h1>
+      <div class="button-container">
+        <button class="role-button" id="cabin-crew-btn">Cabin Crew</button>
+        <button class="role-button" id="flight-crew-btn">Flight Crew</button>
+      </div>
+    </div>
+
+    <!-- Question Screen -->
+    <div id="question-screen" style="display: none;">
+      <h1 id="role-title"></h1>
+      <div id="question-container">
+        <!-- Questions will appear here -->
+      </div>
+    </div>
+
+    <!-- End Screen -->
+    <div id="end-screen" style="display: none;">
+      <h1>Thank you for completing the compliance questionnaire!</h1>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

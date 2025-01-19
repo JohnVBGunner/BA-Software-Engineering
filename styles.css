@@ -1,0 +1,78 @@
+/* Reset margins and paddings for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the body element */
+body {
+  font-family: Arial, sans-serif; /* Ensures clean, readable font */
+  background-color: #f4f4f4; /* Light gray background for contrast */
+  display: flex; /* Centers content horizontally and vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the content covers the full viewport height */
+}
+
+/* Main container */
+.container {
+  text-align: center; /* Centers text within the container */
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem; /* Large text size for headings */
+  color: #333; /* Dark gray for good contrast against the background */
+  margin-bottom: 20px; /* Adds spacing below the heading */
+}
+
+/* Button container for role selection */
+.button-container {
+  display: flex; /* Align buttons side by side */
+  justify-content: center; /* Center-aligns buttons */
+  gap: 30px; /* Adds spacing between buttons */
+}
+
+/* Style for the circular buttons */
+.role-button {
+  width: 150px; /* Fixed width for uniform size */
+  height: 150px; /* Fixed height for a circular shape */
+  border-radius: 50%; /* Makes the buttons circular */
+  font-size: 1.2rem; /* Readable font size */
+  font-weight: bold; /* Emphasizes button text */
+  color: white; /* White text for contrast */
+  background-color: #00539f; /* Deep blue background */
+  border: none; /* Removes default button borders */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for buttons */
+.role-button:hover {
+  background-color: #003d7a; /* Darker blue on hover */
+}
+
+/* Question container styles */
+#question-container {
+  margin-top: 20px; /* Adds spacing above the questions */
+}
+
+/* Option buttons for answers */
+.option-btn {
+  display: block; /* Ensures each button appears on a new line */
+  margin: 10px auto; /* Centers buttons horizontally */
+  padding: 10px 20px; /* Adds padding for clickable area */
+  font-size: 1rem; /* Medium font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #00539f; /* Deep blue for button background */
+  color: white; /* White text for readability */
+  border: none; /* Removes default button borders */
+  border-radius: 5px; /* Slight rounding for a modern look */
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for option buttons */
+.option-btn:hover {
+  background-color: #003d7a; /* Darker blue on hover */
+}
