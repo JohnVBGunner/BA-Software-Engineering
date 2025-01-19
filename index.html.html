@@ -7,16 +7,30 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="branding">[British Airways]</div>
-  </header>
-  <main>
-    <h1>Welcome to the Compliance Questionnaire</h1>
-    <div class="buttons">
-      <button id="cabin-crew-btn">I am Cabin Crew</button>
-      <button id="flight-crew-btn">I am Flight Crew</button>
+  <div class="container">
+    <!-- Start Screen -->
+    <div id="start-screen">
+      <h1>Welcome to the Compliance Questionnaire</h1>
+      <div class="button-container">
+        <button class="role-button" id="cabin-crew-btn">Cabin Crew</button>
+        <button class="role-button" id="flight-crew-btn">Flight Crew</button>
+      </div>
     </div>
-  </main>
+
+    <!-- Question Screen -->
+    <div id="question-screen" style="display: none;">
+      <h1 id="role-title"></h1>
+      <div id="question-container">
+        <!-- Questions will appear here -->
+      </div>
+    </div>
+
+    <!-- End Screen -->
+    <div id="end-screen" style="display: none;">
+      <h1>Thank you for completing the compliance questionnaire!</h1>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
